@@ -51,18 +51,15 @@ with open(file_to_load) as election_data:
         total_votes += 1
         #print candidate name from each row
         candidate_name = row[2]
-<<<<<<< HEAD
-<<<<<<< HEAD
-        
-        #if staement to check if name not already in list
-=======
+
         #if staement to check if name not already in list
 
->>>>>>> 5c91d37513ce37384d0d461c217b5c43b431a8e4
-=======
         #if staement to check if name not already in list
 
->>>>>>> 5c91d37513ce37384d0d461c217b5c43b431a8e4
+
+        #if staement to check if name not already in list
+
+
         if candidate_name not in candidate_options:
             #add candidate name to the list
             candidate_options.append(candidate_name)
